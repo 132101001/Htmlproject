@@ -1,0 +1,170 @@
+
+#memsel{
+top:10vh;
+width: 0vh;
+height: 170vh;
+position: relative;
+cursor: pointer;
+left:-30vh;
+}
+#memsel img{
+height: 60vh;
+width:auto;
+top : 0vh;
+left:20vh;
+text-align: left;
+position: relative;
+cursor: pointer;
+}
+#jiu img{
+    left:35vh;
+    } 
+#sua img{
+    top:-60vh;
+    left: 60vh;
+}
+#siyeon img{
+    top:-120vh;
+    left: 85vh;
+}
+#handong img{
+    top:-180vh;
+    left: 110vh;
+}
+#yoohyeon img{
+    top:-240vh;
+    left: 135vh;
+}
+#dami img{
+    top:-300vh;
+    left: 160vh;
+}
+#gahyeon img{
+    top:-360vh;
+    left: 185vh;
+}
+
+.memdec {
+    width: 0vh;
+    text-align: center;
+    position: relative;
+    font-family: 'Papyrus';
+    opacity: 1;
+    color:#ae1111;
+    transition: 1s;
+    border: black;
+    border-radius: 10px;
+}
+#jiu .memdec{
+    color:#ae1111;
+    top:0vh;
+    left:19vh;
+}
+#sua .memdec{
+    color:#ae1111;
+    top:-60vh;
+    left:44vh;
+}
+#siyeon .memdec{
+    color:#ae1111;
+    top:-120vh;
+    left:65vh;
+}
+#handong .memdec{
+    color:#ae1111;
+    top:-180vh;
+    left:89vh;
+}
+#yoohyeon .memdec{
+    color:#ae1111;
+    top:-240vh;
+    left:112vh;
+}
+#dami .memdec{
+    color:#ae1111;
+    top:-300vh;
+    left:144vh;
+}
+#gahyeon .memdec{
+    color:#ae1111;
+    top:-360vh;
+    left:164vh;
+}
+.Info h3{
+    padding-left: 23vh;
+    padding-top: 5vh;
+    font-size: 25px;
+    font-family: 'Monotype Corsiva' ;
+    
+    position: relative;
+    text-align: left;
+    color: aliceblue;
+    background-blend-mode: darken;
+    background-image: url("th.jpeg");
+    }
+#para1 h3{
+    top:10vh;
+    text-align: right;
+    left: -10vh;
+    width: 80vh;
+}
+#pic1 img{
+    text-align: center;
+    position: absolute;
+    width:73vh;
+    left: 105vh;
+    top: 25vh;
+}
+#para2 h3{
+    top:-40vh;
+    left: -10vh;
+    width: 60vh;
+}
+#para3 h3{
+    text-align: right;
+    top:-10vh;
+    left:-10vh;
+    width: 100vh;
+}
+#para4 h3{
+    text-align: right;
+    top:-10vh;
+    left: -10vh;
+    width: 100vh;
+}
+#para5 h3{
+    top: 15vh;
+    text-align: left;
+    left: 75vh;
+    width: 80vh;
+}
+#para6 h3{
+    top:15vh;
+    left: 75vh;
+    width: 80vh;
+}
+#para7 h3{
+    top:20vh;
+    text-align: right;
+    left: 75vh;
+    width: 80vh;
+}
+#para8 h3{
+    top:20vh;
+    left: -10vh;
+    width: 80vh;
+}
+#pic2 img{
+    text-align: center;
+    position: absolute;
+    width:70vh;
+    left: 115vh;
+    top: 220vh;
+}
+#pic3 img{
+    text-align: center;
+    position: absolute;
+    width:80vh;
+    left: 13vh;
+    top: 290vh;
+}

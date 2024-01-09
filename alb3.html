@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\Prequel_Grp.jpg">
+        </div>
+        <div id="album_pic2">
+            <a href="https://open.spotify.com/album/7dwF0tRN3awkAyYEdLJic3?si=P6wlw6i3SxCkUxLTzU8bZA&nd=1">
+                <img src="images\12d98e7b072befaf250e75cd27da080e.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info2">
+            <h3>Prequel</h3>
+            <hr>
+            <p>"Prequel" is the first mini-album by Dreamcatcher, released on July 27, 2017. It was made available in four versions: Before Version, After Version, Japanese Before Version, and Japanese After Version. This album serves as the third installment of the Nightmare Series, a thematic concept that has become a signature of Dreamcatcher's music and visuals.
+
+                <br>July 7, a teaser scheduler was posted on Dreamcatcher's social media accounts, announcing the release of their highly anticipated first mini-album, "Prequel." Fans were thrilled to receive this news, eagerly anticipating the group's new music. Finally, on July 27, "Prequel" was released, featuring the title track "Fly High," which instantly captivated listeners with its unique sound and captivating visuals.
+                
+                <br>the momentum, on August 1, Happyface Entertainment, Dreamcatcher's agency, announced that following the conclusion of promotions for "Prequel," the group would embark on their very first world tour. This exciting tour, titled Dreamcatcher 1st Tour "Fly High," took them to various cities in Japan, South America, and Europe. The world tour spanned from September 30, 2017, to February 25, 2018, allowing fans from around the globe to experience the electrifying performances and charm of Dreamcatcher in person.
+                
+                <br>"Prequel" marked an important milestone for Dreamcatcher, showcasing their musical growth and expanding their international presence through their world tour. With its diverse versions, compelling title track, and the continuation of the Nightmare Series, the album left a lasting impact on fans and further solidified Dreamcatcher's unique identity in the K-pop industry</p>
+        </div>
+        <div id="playlist2">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=GBZkdSjG_U4">Before and After</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=39yeTdIuKJU">Fly High</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=vuYQhvoYXIQ">Wake Up</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=2_GcbZlDnns">Sleep walking</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=aXFPbEdbe9M">Trust me</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=xOqDyHfypis">Fly High(Inst.)</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

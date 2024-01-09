@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\Fallasleepinmirror_grp.jpeg">
+        </div>
+        <div id="album_pic1">
+            <a href="https://open.spotify.com/album/1wmE0WCpGGAjFsL180dITF?si=VSPH20LeR1iehrtA0TckMQ&nd=1">
+                <img src="images\e3387413bc6449595ef9fc8288bdc9ec.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info1">
+            <h3>Fall asleep in mirror</h3>
+            <hr>
+            <p>"Fall Asleep in the Mirror" is the second single album  released on April 5, 2017, and features the title track "Good Night." 
+
+                <br>On March 17, 2017, Dreamcatcher's social media account shared a teaser photo that caught fans' attention. The teaser featured the numbers "0405" and "1800." This teaser hinted at something significant happening on April 5 at 6 PM (18:00 military time).
+                
+                <br>The agency subsequently confirmed the release of a new album and introduced "puzzles" in the teasers, presenting fans with challenges to solve. These teasers contained hidden clues or elements that fans could decipher to gain insights about the upcoming album.
+                
+                <br>On March 20, a set of teaser photos, including a group photo, was released, building further anticipation among fans. Following that, on March 22, a new set of dark teaser images was unveiled, which had a notably different atmosphere compared to the previous teasers. These darker visuals added to the mystery surrounding the album.
+                
+                <br>On March 28, the final set of teaser images featuring JiU, Dami, and Handong was released, while the remaining members' teasers were revealed a day later, on March 29.
+                
+                <br>On March 30, the tracklist for the album was unveiled, which confirmed that the title track would be "Good Night." A day before the album release, on April 4, an album preview was shared, allowing fans to get a sneak peek of the songs on the album.
+                
+                <br>Additionally, a trailer for the "Good Night" music video was released, with the last trailer unveiled on March 31, just before the official release.
+                
+                <br>Finally, on April 5, the music video for "Good Night" and the rest of the album were officially released. Fans could enjoy Dreamcatcher's new music and experience the continuation of the Nightmare Series with "Fall Asleep in the Mirror."</p>
+        </div>
+        <div id="playlist1">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=5ymH694tIpc">My Toys</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Lxfl8LRab_I">Good Night</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=rSq1URfEEC8">Lullaby</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=aioZz8RgB8g">Good Night(Inst.)</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\Thebeginningoftheend_grp.jpg">
+        </div>
+        <div id="album_pic13">
+            <a href="https://open.spotify.com/album/7mWbMFRfSrOzmgBLuD0Ztc?si=linbCQ5CSDqUBERNv5MxxQ&nd=1">
+                <img src="images\35d61df1a70084ae5e6eb56889aee2f3.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info13">
+            <h3>The Beginning of the End</h3>
+            <hr>
+            <p>"The Beginning of the End" is the first Japanese album and the first studio album by Dreamcatcher.
+
+                <br>The album features a connection point in the story with their 4th mini album released in Korea. This suggests a larger narrative unfolding in Dreamcatcher's discography, adding depth to their storytelling.
+                
+                <br>In addition to new songs, the album includes previously released Japanese versions of their Korean songs "PIRI" and "What." The title track for the album is "Breaking Out."
+                
+                <br>The physical version of the album is available in three versions: a regular edition with a random trading card, and two limited editions - Type A (The End) and Type B (The Beginning). All three editions come with an event participation ticket, offering fans the opportunity to participate in related events.
+                
+                <br>"You and I (Japanese Ver.)" was pre-released on August 22, 2019, giving fans a taste of the Japanese version of this track ahead of the album's full release.
+                
+                <br>This album holds significance as it marks Dreamcatcher's entry into the Japanese market and showcases their storytelling prowess by connecting with their previous Korean releases.
+            </p>
+        </div>
+        <div id="playlist13">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=sZJblBnvy7A">Intro</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=SHmOpFbFgrM">Breaking Out</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=hm1dYdDKS9M">My Way</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=LPBIO2B6BEI">Chase Me(Japanese Ver.)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=EDbvV8tLu5E">Good Night(Japanese Ver.)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=s6xu5S-MAOQ">Wonderland(Japanese Ver.)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=ZOsu__wtD30">PIRI(Japanese Ver.)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=-GwP6BnZt1Y">What(Japanese Ver.)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=IWzCsl6dIao">I Miss You</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=6B4sh12t48w">You and I(Japanese Ver.)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=lG2-McUApbA">Outro</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

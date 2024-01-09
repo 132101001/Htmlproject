@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\Treeoflanguage_grp.jpg">
+        </div>
+        <div id="album_pic6">
+            <a href="https://open.spotify.com/album/7no7EZnKgoRWBbGMjZo9gB?si=hdTleC7nRteVy8SP0AvIoQ&nd=1">
+                <img src="images\697368335ac69ca976d7f11eca62c48f.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info6">
+            <h3>Dystopia: The Tree of Language</h3>
+            <hr>
+            <p>Dystopia: The Tree of Language is indeed the first full-length studio album by Dreamcatcher. It was released on February 18, 2020, under Dreamcatcher Company and distributed by Kakao M. The album consists of fourteen tracks, including the lead single "Scream." It is available in four versions: "E," "V," "I," and "L."
+
+                <br>On February 3, Dreamcatcher released the teaser schedule for their first studio album, "Dystopia: The Tree of Language," building anticipation for the comeback.
+                
+                <br>Prior to the album release, Dreamcatcher unveiled a "lyrics spoiler" video for the lead single "Scream." The video displayed the lyrics, including lines such as "I don't know a single thing, who this is for, someone tell me now, in the rising smoke now. Please, I don't want to scream."
+                
+                <br>On February 18, Dreamcatcher released their first full album, "Dystopia: The Tree of Language," along with the music video for the title track, "Scream." This album marks the beginning of a new story after Dreamcatcher's previous "nightmare" series. "Scream" was composed and written by LEEZ and Ollounder, with Kim Bo Eun contributing to the lyrics. The song combines rock and electronica elements, expanding Dreamcatcher's musical range. The lyrics and the scream before the chorus are inspired by the concept of witch hunts during the medieval period.
+                
+                <br>During promotions for the album, Handong did not participate due to her involvement in the Chinese survival show Youth With You (Season 2). As a result, this marked Dreamcatcher's first time performing as a six-member group.
+                
+                <br>In an article on Allkpop, Eric Wirsing praised the album, stating that despite having multiple tracks, there is little filler. He noted that every song is quintessentially Dreamcatcher, and while there are some variations from their usual formula, they delivered a solid album.
+                
+                <br>To summarize, Dystopia: The Tree of Language is Dreamcatcher's first full-length studio album, released on February 18, 2020. It features the lead single "Scream" and includes fourteen tracks. The album explores new musical genres while maintaining Dreamcatcher's unique style. Handong did not participate in promotions, and the album was well-received by fans and critics alike.</p>
+        </div>
+        <div id="playlist6">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=NfeYX7VW7PU">Intro</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=FKlGHHhTOsQ">Scream</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=oI6DkAl4LSs">Tension</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=RKBJVdjOHUY">Red Sun</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=-Q6iOxdsAbw">Black or White</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Fo64mNT5GOA">Jazz Bar</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=BgLhbkKu1s4">SAHARA</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=okGlx-t9hXA">In the Frozen</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Um2tn8zM8bM">Daybreak</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=G1ojcRTiu5g">Full moon</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=3F2nRTyVPGo">Over the Sky</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=D0SmrLNv45M">Outro</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=mdBosrGac_A">Scream(Inst.)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=JDmZ6oguzzM">Paradise</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

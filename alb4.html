@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\escapetheera_grp.jpg">
+        </div>
+        <div id="album_pic3">
+            <a href="https://open.spotify.com/album/3Y6fSean6h89OygPL0azrn?si=7AmKXJZBTT6alCgtVvETGA&nd=1">
+                <img src="images\a884e8f03549edc568db23b4e326dba4.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info3">
+            <h3>Escape the ERA</h3>
+            <hr>
+            <p>Nightmare - Escape the ERA, commonly referred to as Escape the Era, is the second mini album by the K-pop girl group Dreamcatcher. It was released on May 10, 2018, as the fourth installment of the Nightmare Series. The album was available in two versions: Outside Version and Inside Version. Initially, it was announced as the final album in the series, but this turned out to be false with the subsequent release of The End of Nightmare.
+
+                <br>Dreamcatcher had released a special anniversary single titled "Full Moon" on January 12, 2018. At the end of the music video, a message hinted at their comeback in March. However, on March 25, the group announced that the comeback would be delayed until May. The reason for the delay was to ensure the album's quality and avoid rushing its release. On April 27, Dreamcatcher revealed their comeback schedule and album title, confirming that it would be released on May 10.</p>
+        </div>
+        <div id="playlist3">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=3ntGacSpPQc">Inside-Outside</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=I5_BQAtwHws">You and I</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=_t9FAYWsUkM">Mayday</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=EhwX3y9Ty20">Which a Star</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=jmYCH6p7HPg">Scar</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=T2E0jbU-kO8">You and I(Inst.)</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

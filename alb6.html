@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\theendofnightmare_grp.jpg">
+        </div>
+        <div id="album_pic5">
+            <a href="https://open.spotify.com/album/02YL02Pjk6moxi5iuYsIPC?si=k-TXUrMwRzKdBKNpDK4Mbw&nd=1">
+                <img src="images\664107d59ddc2b8113e3bd7aebaa7370.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info5">
+            <h3>The End of the Nightmare</h3>
+            <hr>
+            <p>The End of Nightmare is indeed the fourth mini album by Dreamcatcher. It was released on February 13, 2019. The album is available in two versions: Stability and Instability Versions. This release also marks the conclusion of the Nightmare Series.
+
+                <br>Leading up to the album's release, Dreamcatcher released a mysterious teaser on January 28, 2019, titled "Mystery Code #01." The teaser image featured a wooden safe protected by a lock resembling a rotary phone dial, generating curiosity and anticipation among fans. The music video for their new title track was then released on February 13 at 6 p.m. KST.
+                
+                <br>Fabiola Giesseler from the Kmagazine website highlighted the album's transition from Dreamcatcher's signature powerful sound to a dreamy theme. They praised Dreamcatcher's ability to showcase a unique and diverse side, adapting to new styles while still showcasing their talents.
+                
+                <br>In a review on All Kpop, the track "Intro" was praised for setting the album's sinister and mysterious tone, aligning well with the horror theme that Dreamcatcher has been known for. The review further noted that "Piri," the title track, starts with a guitar intro and incorporates electric guitars and a persistent flute throughout the song. Dreamcatcher's fierce vocals, for which they are renowned, were also highlighted in the review.
+                
+                <br>In summary, The End of Nightmare is Dreamcatcher's fourth mini album, released on February 13, 2019. It is available in Stability and Instability Versions and marks the end of the Nightmare Series. The album received praise for its transition in sound, showcasing Dreamcatcher's versatility, and maintaining their powerful vocals</p>
+        </div>
+        <div id="playlist5">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=47yVPOjwO_0&list=PL5Cn5svuLlDk_LBj6hLCEKZv9yo0TUFbo">Intro</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Pq_mbTSR-a0">PIRI</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=54j-ePPQStU&list=PL5Cn5svuLlDk_LBj6hLCEKZv9yo0TUFbo&index=3">Diamond</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Nj5RiXNaqzc">And There Was No one left</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=X1Mte4dHW1s&list=PL5Cn5svuLlDk_LBj6hLCEKZv9yo0TUFbo&index=5">Daydream</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=a2NYg8DaF6s&list=PL5Cn5svuLlDk_LBj6hLCEKZv9yo0TUFbo&index=6">PIRI(Inst.)</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

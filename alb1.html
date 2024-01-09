@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\Nightmare_grp.jpg">
+        </div>
+        <div id="album_pic">
+            <a href="https://open.spotify.com/album/2BIlGYqHZqWuI6GqwXd22t">
+                <img src="images\ba8ee6071b5be162cf199d5a5b46549d.jpg">
+            </a>
+        </div>
+        <div id="album_info">
+            <h3>Nightmare</h3>
+            <hr>
+            <p>The release of "Nightmare" marked the end of their previous incarnation as MINX and introduced the group under their new name. Two new members, Gahyeon and Handong, were added to the group.
+                <br>On January 13, 2017, Dreamcatcher released the music video for their debut single "Chase Me," which was included in the "Nightmare" album.
+                <br>Dreamcatcher made their first stage appearance as the rebranded group on "Music Bank," alongside other artists such as AOA, AKMU, Big Bang, and NCT 127. They also performed on other music shows such as "Music Core," "M! Countdown," and "Show Champion."
+                <br>In terms of chart performance, "Nightmare" reached No. 20 on the Gaon Weekly Album Chart and secured the No. 57 position on the monthly chart of the same list.</p>
+        </div>
+        <div id="playlist">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=oZ1FpL8NwxE">Welcome to the Dream(Intro)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=zihoyz0u_cs">Chase me</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=5ST_EJBhwO4">Emotion</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=tGKOjr5qT-c">Chase me(Inst.)</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

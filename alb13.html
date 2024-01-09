@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\Fromus_grp.jpg">
+        </div>
+        <div id="album_pic12">
+            <a href="https://open.spotify.com/album/7D2DrBRs922elDgsyNrqjA?si=8sUK3LzHSwqPcbLMU3tyrg&nd=1">
+                <img src="images\488e50877aeb444e65da4db8dcfbb8f1.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info12">
+            <h3>Apocalypse: From us</h3>
+            <hr>
+            <p>"Apocalypse: Follow Us" is the seventh mini album by Dreamcatcher, released on October 11, 2022, with the title track "VISION." The comeback was announced on September 1, and the group dropped their mystery code teaser on September 21. A comeback scheduler was posted on September 26, revealing the release date of October 11.
+
+                <br>Despite being a mini album, the promotional period for "Apocalypse: Follow Us" was relatively short. The first comeback broadcast took place on October 13, and the last music broadcast activity ended on October 21 with Music Bank. This marked the shortest activity period for Dreamcatcher, likely due to the Olympics causing many absences and fewer appearances on terrestrial music broadcasts compared to their special album "Because." The reduced activity period may have been influenced by the upcoming world tour scheduled for late October and November.
+                
+                <br>Additionally, in the music video for "VISION," the official YouTube account commented, "wait this concept is so cool," expressing their appreciation for the concept showcased in the video.
+            </p>
+        </div>
+        <div id="playlist12">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=jDNGxy93cI8">Intro: From us</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=RPNaYj6etb8">BONVOYAGE</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=7DK8Acq81t4">DEMIAN</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=KzqwSxhBf9Y">Propose</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=ttK_mfVmsWE">To. You</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

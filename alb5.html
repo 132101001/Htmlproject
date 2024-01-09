@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\aloneinthecity_grp.jpg">
+        </div>
+        <div id="album_pic4">
+            <a href="https://open.spotify.com/album/68esmTNXocYLPEbLD1c7si?si=kq2SLr30SAO-_GHVKMP_tg&nd=1">
+                <img src="images\500x500.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info4">
+            <h3>Alone in the city</h3>
+            <hr>
+            <p>Alone in the City is indeed the third mini album by Dreamcatcher. It was released on September 20, 2018, and features the title track "What." The album includes other promoted songs like "Wonderland" and "July 7th." Alone in the City is part of the Nightmare Series, specifically the fifth installment.
+
+                <br>The physical album is available in two versions: Light Version and Shade Version. The Light Version and Shade Version represent different concepts and aesthetics.
+                
+                <br>Josh Naughton from United Kpop praised the album for its variety of tracks from different genres. He particularly highlighted "What" as an upbeat rock song that aligns with Dreamcatcher's identity, and he commended the album's versatility across multiple genres.
+                
+                <br>Seoulbeats, in their review, mentioned that although Dreamcatcher is known for their rock-inspired music, the songs that deviated from their usual sound, such as "Wonderland" and "July 7th," garnered attention. They described "Wonderland" as a sultry R&B track that showcases the group's dynamic vocal range. The review also discussed the musical elements and vocal performances that enhanced these songs.
+                
+                <br>Before the album's release, Dreamcatcher released a mystery code video on September 6, featuring messages on the 'Bridge of Life,' which is aimed at preventing suicide attempts on the Han River. However, this video received backlash from fans who found the content distressing. Many fans filed complaints to Happy Face Entertainment regarding the video's potential connection to suicide. In response, the agency deleted the video and issued an apology for any distress caused.
+                
+                <br>To summarize, Alone in the City is Dreamcatcher's third mini album, released on September 20, 2018. It contains a variety of tracks across different genres, including the promoted songs "What," "Wonderland," and "July 7th." The album comes in Light and Shade versions, and it is part of the Nightmare Series. The controversy surrounding the pre-release mystery code video led to its removal and an apology from the agency.</p>
+        </div>
+        <div id="playlist4">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=dIXdQsz46M0">Intro</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=pN0dkjp1deQ">What</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=iITO8xBvcHI">Wonderland</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=eoqwlzfyRSY">Trap</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=7u7vUzgtUlk">July 7th</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=gipiiLebk2c">What(Inst.)</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

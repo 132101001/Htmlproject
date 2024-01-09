@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\Saveus_grp.jpg">
+        </div>
+        <div id="album_pic10">
+            <a href="https://open.spotify.com/album/1ONjVRtxAqiTivu0EiEBm5?si=e7fce39d6e4d4ead&nd=1">
+                <img src="images\51307fd30500f2f6f3486231cfc2c66f.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info10">
+            <h3>Apocalypse: Save us</h3>
+            <hr>
+            <p>"Apocalypse: Save Us" is Dreamcatcher's second full-length studio album, released on April 12, 2022, by Dreamcatcher Company and distributed by Sony Music Korea. The album's release date was confirmed through a Mystery Code teaser, and it was revealed that the comeback would take place on April 12 at 6 p.m. KST.
+
+                <br>To commemorate their comeback, Dreamcatcher planned a special solo mini concert both online and offline. Official teasers for the album began on March 28, starting with a track list followed by individual and group concept photos, a highlight medley, and an MV teaser.
+                
+                <br>On April 27, 2022, a world tour titled "2022 Dreamcatcher World Tour 'Apocalypse: Save Us'" was announced, initially featuring eight shows in the United States. Two additional dates for the tour in Mexico City and a second show in Los Angeles were announced on June 14, 2022.
+                
+                <br>Tanu Raj from NME gave the album a rating of 3 out of 5 stars. While acknowledging Dreamcatcher's efforts to tackle climate change in the album, Raj felt that the album's youthful optimism didn't align well with the urgent theme. The review highlighted the track "Maison" for its frantic pace and the sense of urgency it conveyed.
+                
+                <br>From tracks 8 to 14, each member co-wrote and performed a solo song. Notable details include the meaning behind the name "Handong," which can translate to "Cold Winter" in different Chinese characters, matching her nickname of Ice Princess. Additionally, the title "Beauty Full" is a play on words by flipping the word order of Dami's name.
+                
+                <br>After five years since their debut, Dreamcatcher achieved their first win with their latest title track, "MAISON," on MBC's Show Champion on April 20. The group received 6,545 points, the highest among the nominated groups.
+                
+                <br>"Apocalypse: Save Us" marks the beginning of Dreamcatcher's new Apocalypse series following the conclusion of their previous series, Dystopia. Commercially, the album sold over 136,239 copies.
+            </p>
+        </div>
+        <div id="playlist10">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=fQdwh1J9Qj4">Intro: Save us</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Noc8Ba1IKFc">Locked Inside A Door</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=z4t9LLq1Nk0">Masion</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=DcUQp2Cf_04">Starlight</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=yL9xPI2yx5g">Together</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=BG8cSvSMG7k">Always</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=NOLnXKl44-I">Skit: The seven doors</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=2L0q-nWS1xA">Cherry(Real Miracle)(Jiu Solo)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=oxPyRRKEtHI">No Dot(Sua solo)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=CowRTDlxbWg">Entrancing(Siyeon solo)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=jQ_ogJWssXU">Winter(Handong solo)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=1HwjxbE7_Qw">For(Yoohyeon solo)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=nivI7w9HagI">Beauty Full(Dami solo)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=iYvErpLnQ-8">Playground(Gahyeon solo)</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\Losemyself_grp.jpg">
+        </div>
+        <div id="album_pic7">
+            <a href="https://open.spotify.com/album/4tKKN5LO7CcTOcsSV3OmMQ?si=akfc3sArTG2GptW4npuq5g&nd=1">
+                <img src="images\c453fdfb5d71c2d5acc781539cd4e279.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info7">
+            <h3>Dystopia: Lose Myself</h3>
+            <hr>
+            <p>"Dystopia: Lose Myself" is Dreamcatcher's fifth mini album and the second release in the "Dystopia" series, following "Dystopia: The Tree of Language." It was released on August 17, 2020, with the lead single "BOCA." The album is available in four versions: limited S (first press only), regular H, regular E, and limited D (preorder only).
+
+                <br>Dreamcatcher has a tradition of releasing "Mystery Code" teasers on Instagram to generate excitement among fans. These teasers contain clues about their upcoming releases.
+                
+                <br>The title track "BOCA" is composed and written by Ollounder and LEEZ. It combines elements of Moombahton with Dreamcatcher's signature rock genre. The song addresses those who speak hurtful words without taking responsibility or feeling guilt.
+                
+                <br>The Album of the Year website's review describes "Dystopia: Lose Myself" as a typical Dreamcatcher project with some variation towards the end. The vocal abilities of the members are highlighted in songs like "Break The Wall" and "Can't Get You Out of My Head." The review praises "BOCA" as a strong rock song, featuring a great pre-chorus melody and impressive vocals from sUa, Yoohyeon, and Siyeon. Gahyeon's rap verse is also commended for its fitting contribution. Overall, the album represents a typical Dreamcatcher rock theme.
+                
+                <br>Rio Alif, writing for the Medium website, commends Dreamcatcher for their strong vocals and the complex sound production by Ollounder and LEEZ. Alif suggests that Dreamcatcher successfully incorporates sounds from genres rarely seen in girl group songs, expanding the boundaries of what a South Korean girl group can achieve.
+                
+                <br>These reviews emphasize Dreamcatcher's vocal abilities, their expertise in rock music, and their ability to push boundaries by incorporating diverse musical styles into their work.</p>
+        </div>
+        <div id="playlist7">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=DW6pUU4TFj8">Intro</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=MZ4JGye4dQU">BOCA</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=TqcPjwKU_zc">Break the Wall</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=F_2W8SW8iXA">Can't Get You Out of My Mind</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=nqrHHZjc_Rs">Dear</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=wBr8gB-0WJA">BOCA(Inst.)</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

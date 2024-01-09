@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\SummerHoliday_grp.jpg">
+        </div>
+        <div id="album_pic9">
+            <a href="https://open.spotify.com/album/1JOpx5eL6Rb3vRC9epERQD?si=k8Lwp5yFQ_eaIO2WXmH26Q&dl_branch=1&nd=1">
+                <img src="images\f32a946493d9d0b546bf617c54c60255.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info9">
+            <h3>Summer Holiday</h3>
+            <hr>
+            <p>Dreamcatcher made a comeback with their special mini album "Summer Holiday" on July 30, 2021. This marked their first comeback in six months since concluding their "Dystopia" album series with "Dystopia: Road to Utopia" in January. The album received positive reviews for its varied selection of songs and genres.
+
+                <br>The NME website praised Dreamcatcher's "Summer Holiday," highlighting its courageous and forceful music that stood out in the typically buoyant summer season of K-pop. The title track, "BEcause," was particularly noted for effortlessly switching between upbeat synth verses and intense choruses driven by electric guitar riffs. The song also featured a slow bridge that built up to a satisfying climax.
+                
+                <br>Seoulbeats also praised the album, emphasizing that "Summer Holiday" showcased the lighter and more energetic side of Dreamcatcher's potential. They commended the group for their musical force and signature style, noting that it's not just their characteristic sound that defines Dreamcatcher, but rather their ability to adapt and experiment. Regarding "BEcause," they found it entertaining and highlighted the fun rhythm changes in the verses, while noting that the overall style of the song retained the heavy theatricality that Dreamcatcher is known for.
+                
+                <br>Before the official release of "Summer Holiday," Dreamcatcher appeared on Mnet's M Countdown, where they performed their title track "BEcause".
+            </p>
+        </div>
+        <div id="playlist9">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=cm6KUDLU7CY">Intro</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=PEKkdIT8JPM">BEcause</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=-dP-GPp6jFg">Airplane</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Mhn-vzU1Hd4">Whistle</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=h-xwPPWnAPE">Alldaylong</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=MxpRGl737cU">A Heart of Sunflower</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

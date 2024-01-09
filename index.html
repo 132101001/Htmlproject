@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            background-image: linear-gradient(black,#b92a2aac ),url('wp7030438-dreamcatcher-desktop-kpop-wallpapers.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerhead">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+            <h2 style="font-family:'BankGothic Md BT';font-size: 40px ; color:rgb(60, 60, 60);text-align:center;">DREAM OF ME</h2>
+            <h3 style="font-family:'Tempus Sans ITC';font-size: 100px ; color:rgb(98, 98, 98);text-align:center;">WELCOME TO THE<br>DREAM WORLD</h2>
+            
+        </div>
+        <div id="recentimg">
+            <img src="images\Fromus_grp.jpg">
+        </div>
+        <div id="promotion">
+            <img src="images\488e50877aeb444e65da4db8dcfbb8f1.jpg">
+            <h2>Stream Bonvoyage!!!</h2>
+        </div>
+        <div id="yt_promotion">
+            <a href="https://www.youtube.com/watch?v=RPNaYj6etb8">
+                <img src="hd-white-youtube-yt-logo-symbol-icon-png-11637043675gcvxg522qx.png">
+            </a>
+        </div>
+        <div id="sfy_promotion">
+            <a href="https://open.spotify.com/track/3Jnwl9zlbFNEqKQjydxLxe?si=3533eecd3415449b">
+                <img src="png-transparent-spotify-logo-streaming-media-apple-music-others-hand-symbol-spotify-logo.png">
+            </a>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

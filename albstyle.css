@@ -1,0 +1,929 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#album_pic {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 107vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic img{
+    width: 35vh;
+    height: 35vh;
+}
+#coverpic {
+    text-align: center;
+    position: absolute;
+    left: 170px;
+    top: 30vh;
+}
+#coverpic img{
+    width: 1200px;
+    height: auto;
+}
+#album_info{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:105vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info p{
+    font-size: 18px;
+}
+#playlist{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:142vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist li a:hover{
+    background: #8778e7;
+}
+#album_pic1 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 150vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic1 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info1{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:150vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info1 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info1 p{
+    font-size: 18px;
+}
+#playlist1{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:185vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist1 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist1 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist1 li a:hover{
+    background: #8778e7;
+}
+#album_pic2 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 175vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic2 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info2{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:170vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info2 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info2 p{
+    font-size: 18px;
+}
+#playlist2{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:210vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist2 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist2 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist2 li a:hover{
+    background: #8778e7;
+}
+#album_pic3 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 95vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic3 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info3{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:90vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info3 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info3 p{
+    font-size: 18px;
+}
+#playlist3{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:130vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist3 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist3 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist3 li a:hover{
+    background: #8778e7;
+}
+#album_pic4 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 110vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic4 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info4{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:105vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info4 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info4 p{
+    font-size: 18px;
+}
+#playlist4{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:145vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist4 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist4 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist4 li a:hover{
+    background: #8778e7;
+}
+#album_pic5 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 155vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic5 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info5{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:150vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info5 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info5 p{
+    font-size: 18px;
+}
+#playlist5{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:190vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist5 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist5 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist5 li a:hover{
+    background: #8778e7;
+}
+#album_pic6 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 142vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic6 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info6{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:150vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info6 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info6 p{
+    font-size: 18px;
+}
+#playlist6{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:177vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist6 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist6 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist6 li a:hover{
+    background: #8778e7;
+}
+#album_pic7 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 145vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic7 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info7{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:145vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info7 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info7 p{
+    font-size: 18px;
+}
+#playlist7{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:180vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist7 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist7 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist7 li a:hover{
+    background: #8778e7;
+}
+#album_pic8 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 115vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic8 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info8{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:115vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info8 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info8 p{
+    font-size: 18px;
+}
+#playlist8{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:150vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist8 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist8 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist8 li a:hover{
+    background: #8778e7;
+}
+#album_pic9 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 140vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic9 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info9{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:150vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info9 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info9 p{
+    font-size: 18px;
+}
+#playlist9{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:175vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist9 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist9 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist9 li a:hover{
+    background: #8778e7;
+}
+#album_pic10 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 140vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic10 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info10{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:150vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info10 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info10 p{
+    font-size: 18px;
+}
+#playlist10{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:175vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist10 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist10 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist10 li a:hover{
+    background: #8778e7;
+}
+#album_pic11 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 120vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic11 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info11{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:120vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info11 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info11 p{
+    font-size: 18px;
+}
+#playlist11{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:155vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist11 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist11 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist11 li a:hover{
+    background: #8778e7;
+}
+#album_pic12 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 138vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic12 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info12{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:138vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info12 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info12 p{
+    font-size: 18px;
+}
+#playlist12{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:173vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist12 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist12 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist12 li a:hover{
+    background: #8778e7;
+}
+#album_pic13 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 170vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic13 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info13{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:170vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info13 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info13 p{
+    font-size: 18px;
+}
+#playlist13{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:205vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist13 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist13 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist13 li a:hover{
+    background: #8778e7;
+}
+#album_pic14 {
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    position: absolute;
+    left:130vh;
+    top: 190vh;
+    z-index: 3;
+    cursor: pointer;
+}
+#album_pic14 img{
+    width: 35vh;
+    height: 35vh;
+}
+#album_info14{
+    width: 90vh;
+    text-align: left;
+    position: absolute;
+    top:190vh;
+    left:20vh;
+    color:#ffffff;
+    font-size: 40px;
+}
+#album_info14 hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 100%;
+}
+#album_info14 p{
+    font-size: 18px;
+}
+#playlist14{
+    width: 35vh;
+    position:absolute;
+    
+    left:130vh;
+    top:225vh;
+    background: rgb(2, 2, 55);
+    z-index: 3 ;
+    transition: 0.5s;
+}
+#playlist14 li{
+    padding-top: auto;
+    list-style: none;
+    
+}
+#playlist14 li a{
+    font-weight: bold;
+    font-family: 'Papyrus';
+    display: block;
+    color: rgb(125, 14, 14);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#playlist14 li a:hover{
+    background: #8778e7;
+}

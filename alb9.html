@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\roadtoutopia_grp-2.jpg">
+        </div>
+        <div id="album_pic8">
+            <a href="https://open.spotify.com/album/6ECUAXThxlRHQ1JPUQJQJG?si=u96V3OYPRwWKiO0zNZ38XQ&nd=1">
+                <img src="images\be29b8e58b6ad999d6096a56b028196d.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info8">
+            <h3>Dystopia: Road to Utopia</h3>
+            <hr>
+            <p>"Dystopia: Road to Utopia" is Dreamcatcher's sixth mini album and the third release in the "Dystopia" series, following "Dystopia: The Tree of Language" and "Dystopia: Lose Myself." It was released on January 26, 2021, as the final album of the Dystopia Era. The album features six tracks, including the lead single "Odd Eye," and comes in four versions: "D," "A," "R," and "K."
+
+                <br>Dreamcatcher released a teaser on Instagram on January 8, featuring a new code for fans to decipher. The group has a tradition of releasing mystery codes before their comebacks, and this teaser hinted at a continuation of the story from their previous song "BOCA." The album was released on January 26 at 6 p.m. KST.
+                
+                <br>The title track "Odd Eye" features Siyeon in the chorus. Siyeon also participated in the choruses of "Poison Love" and "New days," while Yoohyeon is part of the choruses for "Wind Blows" and "4 Memory." JiU co-composed and co-wrote "4 Memory," and Dami contributed to the composition and writing of "New days." Producers Ollounder and LEEZ are credited in all six songs.
+                
+                <br>"Dystopia: Road to Utopia" showcases a powerful mix of rock and hip-hop elements. The song "Odd Eye" uses a lower register piano to create a holy atmosphere, and the vocal melody overlaps with distorted guitar sounds in the chorus, creating an attention-grabbing piece.
+                
+                <br>The Seoulbeats website's album review states that Dreamcatcher has established a distinct musical identity, blending rock elements with great vocals that could easily befit an epic anime opening. However, the review notes that with this album, Dreamcatcher steps out of familiar territory, and while it is versatile and well-produced, the versatility fails to hold the album together as a cohesive unit.
+                
+                <br>All Kpop noted in their review that "Odd Eye" is a revision of Dreamcatcher's classic rock sound. The song is more guitar-centric compared to their previous EDM-influenced comeback, which is preferred for the group. The voices of each member shine through clearly in the title track, and the review praises Dreamcatcher for their ability to showcase the strengths of each member.
+                
+                <br>"Dystopia: Road to Utopia" marked Handong's first appearance in a Korean-language comeback since Dreamcatcher's first special album, "Raid of Dream." The EP achieved significant sales success, selling over 60,000 copies within three days, surpassing the first-week sales of their previous EP, "Dystopia: Lose Myself." It debuted at number one on the GAON charts, making it the group's first album to reach the top position. In its first month, the EP surpassed 90,000 copies sold.
+            </p>
+        </div>
+        <div id="playlist8">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=0KAPMuPWktg">Intro</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=1QD0FeZyDtQ">Odd Eye</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=t6FnECoSlrQ">Wind Blows</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=wKXjvh-wYKY">Poison Love</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=SGemMpImsXg">4 Memory</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Ag2AWsFY5Ns">New days</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=PPDsgFOFVxA">Odd Eye(Inst.)</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>

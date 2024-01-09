@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>
+            Album store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="albstyle.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(2, 2, 55);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            }
+                    
+    </style>
+    <body>
+        <div class="bannerheada">
+            <h1 style="font-family:'BankGothic Md BT';font-size: 80px ; color:white;text-align:center;">DREAMCATCER</h1>    
+        </div>
+        <div id="coverpic">
+            <img src="images\Endlessnight_grp.jpg">
+        </div>
+        <div id="album_pic14">
+            <a href="https://open.spotify.com/album/7mWbMFRfSrOzmgBLuD0Ztc?si=linbCQ5CSDqUBERNv5MxxQ&nd=1">
+                <img src="images\fe273783e58e424f6619849edfebc9c8.jpg">
+            </a>
+            
+        </div>
+        <div id="album_info14">
+            <h3>Endless Night</h3>
+            <hr>
+            <p>
+                "Endless Night" is the third Japanese single by the South Korean girl group Dreamcatcher. It was released on March 11, 2020. The physical release of the single comes in three editions:
+
+                <br>Normal CD Edition: This edition includes a random trading card, and the first press of this edition comes with one random event participation ticket (A, B, or C).
+                
+                <br>Limited CD+DVD Edition A: This edition includes a DVD in addition to the CD. The first press of this edition comes with one random event participation ticket (A, B, or C) and a special event ticket.
+                
+                <br>Limited CD+DVD Edition B: Similar to Edition A, this edition also includes a DVD along with the CD. The first press of this edition comes with one random event participation ticket (A, B, or C) and a special event ticket.
+                
+                <br>The title track of the single, "Endless Night," was produced by the Japanese guitarist Kuboty, who was also responsible for providing the guitar and bass parts in the song. The drum parts in the song were provided by Katsuma, a member of the Japanese post-hardcore band Coldrain.
+                
+                <br>Dreamcatcher is known for their unique concept that blends elements of rock and metal with a dark and haunting vibe, and "Endless Night" continues to showcase their distinctive style and musical talent. 
+            </p>
+        </div>
+        <div id="playlist14">
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=sZJblBnvy7A">Endless Night</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=LPBIO2B6BEI">Over the Sky(Japanese Ver.)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=EDbvV8tLu5E">Silent Night(Japanese Ver.)</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="DISCOGRAPHY.html">DISCOGRAPHY</a></li>
+                    <li><a href="Grpinfo.html">GROUP INFO</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">   
+        </div>   
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.left="-200px"
+            menubtn.onclick=function(){
+                if(sideNav.style.left=="-200px"){
+                    sideNav.style.left="0";
+                    menu.src="close.png";
+                }
+                else{
+                    sideNav.style.left="-200px"; 
+                    menu.src="download.png";
+                }
+            }
+        </script>    
+    </body>
+</html>
